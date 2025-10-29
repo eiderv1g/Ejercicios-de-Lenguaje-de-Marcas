@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="email">Introduzca su correo electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="Introduce tu correo electrónico" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><br><br>
+
+        <label for="password">Introduzca su contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirme su contraseña:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="123456789" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label for="pais">País de residencia:</label>
+        <select id="pais" name="pais" required>
+            <option value="" disabled selected>Selecciona un país</option>
+            <option value="AR">Argentina</option>
+            <option value="BO">Bolivia</option>
+            <option value="BR">Brasil</option>
+            <option value="CL">Chile</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="CU">Cuba</option>
+            <option value="DO">República Dominicana</option>
+            <option value="EC">Ecuador</option>
+            <option value="ES">España</option>
+            <option value="MX">México</option>
+            <option value="PA">Panamá</option>
+            <option value="PE">Perú</option>
+            <option value="PY">Paraguay</option>
+            <option value="UY">Uruguay</option>
+            <option value="VE">Venezuela</option>
+        </select><br><br>
+
+        <label for="genero">Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino" required>
+        <label for="otro">Otro</label>
+        <input type="radio" id="otro" name="genero" value="otro" required>
+        <label for="prefiero_no_decirlo">Prefiero no decirlo</label>
+        <input type="radio" id="prefiero_no_decirlo" name="genero" value="prefiero_no_decirlo" required>
+        <br><br>
+
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color" value="#000000>"><br><br>
+
+        <label for="rango">Nivel de satisfacción:</label>
+        <input type="range" id="rango" name="rango" min="0" max="10" step="1" value="5"><br><br>        
+
+        <label for="aceptar">Aceptar términos y condiciones</label>
+        <input type="checkbox" id="aceptar" name="aceptar" required><br><br>
+
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar">
+
+        <script src="" async defer></script>
+</body>
+
+</html>
